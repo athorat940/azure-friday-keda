@@ -59,7 +59,8 @@ metadata:
   labels:
     app: azure-friday
 data:
-  servicebus-namespace-connectionstring: <base64-encoded-connection-string-with-send-listen-permissions>
+  API_KEY: bWVnYV9zZWNyZXRfa2V5Cg==
+  API_SECRET: cmVhbGx5X3NlY3JldF92YWx1ZTEK
 ---
 apiVersion: v1
 kind: Secret
@@ -68,4 +69,5 @@ metadata:
   labels:
     app: azure-friday
 data:
-  servicebus-namespace-connectionstring: <base64-encoded-connection-string-with-listen-permissions>
+  API_KEY: bWVnYV9zZWNyZXRfa2V5Cg==
+  API_SECRET: cmVhbGx5X3NlY3JldF92YWx1ZTEK
